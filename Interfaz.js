@@ -128,7 +128,7 @@ class Interfaz {
 
     bindEvents() {
         document.getElementById('btnLogin').addEventListener('click', () => {
-            const clientId = 'REMPLAZAR AQUI PILAS PUES'; // REEMPLAZAR
+            const clientId = 'REMPLAZAR AQUI PILAS PUESs'; // REEMPLAZAR
             const redirectUri = encodeURIComponent('http://localhost:5500'); // REEMPLAZAR (el servidor tiene que estar en la app de sporify tambien)
             const scope = 'user-top-read';
             const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${redirectUri}&scope=${scope}&show_dialog=true`;
